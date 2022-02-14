@@ -9,12 +9,12 @@ const config = {
   title: 'Ipass - Safira',
   tagline: 'Dinosaurs are cool',
   url: ' https://vfipaas.github.io/',
-  baseUrl: '/',
+  baseUrl: '/safira-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'vfipaas', // Usually your GitHub org/user name.
-  projectName: 'docusaurus_safira', // Usually your repo name.
+  projectName: 'safira-docs', // Usually your repo name.
   
 
   presets: [
