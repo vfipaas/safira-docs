@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Ipass Safira',
+        title: 'Safira CLI',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
