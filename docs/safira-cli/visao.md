@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Visão
 
-Nós simplificamos a complexidade no precesso de contrução de suas APIS, facilitando as integrações e criação de ambiente de desenvolvimento com agilidade, performace e escalabilidade, aumentando a produtividade e melhorando a experiencia do time.
+Nós simplificamos a complexidade no processo de contrução de suas APIS, facilitando as integrações e criação de ambiente de desenvolvimento com agilidade, performace e escalabilidade, aumentando a produtividade e melhorando a experiencia do time.
 
 ### As principais vantagens da aplicação do safira-cli
 
