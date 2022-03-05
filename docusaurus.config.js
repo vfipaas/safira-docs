@@ -15,8 +15,16 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'vfipaas', // Usually your GitHub org/user name.
   projectName: 'safira-docs', // Usually your repo name.
-  
-
+  // Internationalization
+  i18n: {
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR'],
+    localeConfigs: {
+      'pt-BR': {
+        htmlLang: 'pt-BR',
+      },
+    },
+  },
   presets: [
     [
       'classic',
@@ -56,7 +64,11 @@ const config = {
             position: 'left',
             label: 'Safira-cli',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -96,10 +108,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
