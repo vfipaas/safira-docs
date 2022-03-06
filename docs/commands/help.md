@@ -1,14 +1,13 @@
+---
+sidebar_position: 7
+sidebar_label: help
+---
 
+## `safira-cli help [COMMAND]`
 
+display help for safira-cli
 
-### Help
-
-```bash
-safira-cli help [COMMAND]
 ```
-
-Formas de utilização:
-```bash
 USAGE
   $ safira-cli help [COMMAND]
 
@@ -17,5 +16,4 @@ ARGUMENTS
 
 OPTIONS
   --all  see all commands in CLI
-
 ```

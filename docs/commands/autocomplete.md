@@ -1,15 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
+sidebar_label: autocomplete
 ---
 
-### AutoComplete
 
-```bash 
-safira-cli autocomplete [SHELL]
+## `safira-cli autocomplete [SHELL]`
+
+display autocomplete installation instructions
+
 ```
-Formas de utilização:
-
-```bash 
 USAGE
   $ safira-cli autocomplete [SHELL]
 
@@ -23,6 +22,5 @@ EXAMPLES
   $ safira-cli autocomplete
   $ safira-cli autocomplete bash
   $ safira-cli autocomplete zsh
-  $ safira-cli autocompNODE
   $ safira-cli autocomplete --refresh-cache
 ```

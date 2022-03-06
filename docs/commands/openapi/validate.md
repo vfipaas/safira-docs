@@ -1,17 +1,13 @@
 ---
-sidebar_position: 7
+sidebar_position: 1
+sidebar_label: validate
 ---
 
-### OpenApi
+## `safira-cli openapi:validate [FILE-PATH]`
 
-## openapi:validate
+Validates your openapi file.Supports json or yaml file.
 
-```bash 
-safira-cli openapi:validate [FILE-PATH]
 ```
-Formas de utilização:
-
-```bash 
 USAGE
   $ safira-cli openapi:validate [FILE-PATH]
 
@@ -19,9 +15,10 @@ ARGUMENTS
   FILE-PATH  [default: ./openapi.json] Openapi template file location
 
 OPTIONS
-  -h, --help  show CLI help
+  --help  show CLI help
 
 EXAMPLES
   safira-cli openapi:validate
   safira-cli openapi:validate ./openapi-sample.json
   safira-cli openapi:validate ./openapi-sample.yaml
+```

@@ -1,20 +1,16 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
+sidebar_label: update
 ---
 
-### safira-cli update
+## `safira-cli update [CHANNEL]`
 
-```bash 
-safira-cli update [CHANNEL]
+update the safira-cli CLI
+
 ```
-
-Formas de utilização:
-
-```bash 
 USAGE
   $ safira-cli update [CHANNEL]
 
 OPTIONS
   --from-local  interactively choose an already installed version
-
 ```

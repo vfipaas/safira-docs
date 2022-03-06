@@ -63,7 +63,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Safira-cli',
+            label: 'Documentação',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -71,7 +71,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/vfipaas/safira-support',
             label: 'GitHub',
             position: 'right',
           },
@@ -84,13 +84,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentação',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidade',
             items: [
               {
                 label: 'Stack Overflow',
@@ -107,7 +107,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Sobre',
             items: [
               // {
               //   label: 'Blog',
@@ -115,12 +115,12 @@ const config = {
               // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/vfipaas/safira-support',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Vertigo, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

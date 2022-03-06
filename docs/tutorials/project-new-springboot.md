@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
+sidebar_label: Gerando Projeto Spring-boot
 ---
 
-# Exemplos Safira
+# Gerando Projeto Spring-boot
 
 ### Detalhes práticos duranto a geração do projeto Springboot
 
