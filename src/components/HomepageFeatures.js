@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Fácil de usar',
-    Svg: require('/img/easy_to_use.svg').default,
+    Svg: require('/img/command.svg').default,
     description: (
       <>
         Safira CLI foi desenhado para ser fácil pensando na 
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Focado no que interessa',
-    Svg: require('/img/programmer.svg').default,
+    Svg: require('/img/monitor.svg').default,
     description: (
       <>
         Você pode focar no desenvolvimento e
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Desenvolvido por Dev para Dev',
-    Svg: require('/img/dev.svg').default,
+    Svg: require('/img/transfer.svg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
