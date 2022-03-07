@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Safira CLI',
-  staticDirectories: ['public', 'static'],
-  tagline: 'Dinosaurs are cool',
+  staticDirectories: ['static'],
+  tagline: 'Uma ferramenta para automatizar o desenvolvimento de aplicações Openapi',
   url: ' https://vfipaas.github.io/',
   baseUrl: '/safira-docs/',
   onBrokenLinks: 'throw',
