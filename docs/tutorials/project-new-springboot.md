@@ -7,7 +7,7 @@ sidebar_label: Gerando Projeto Spring-boot
 
 ### Detalhes práticos duranto a geração do projeto Springboot
 
-![Spring Plushie](../../static/img/screenshot/exemplo_spring.png)
+![Spring Plushie](/static/img/screenshot/exemplo_spring.png)
 
  -  Would you like to use inso (insomnia) spec? - Caso queira utilizar insomnia como base. (Caso não optar pela geração do projeto através do insomnia, deverá escrever o caminho do arquivo .yaml ou json)
 
@@ -39,7 +39,7 @@ sidebar_label: Gerando Projeto Spring-boot
 ### Artefatos
 Detalhes do projeto gerado em Springboot:
 
-![Safira Plushie](../../static/img/screenshot/exemplo_artefatos.png)
+![Safira Plushie](/static/img/screenshot/exemplo_artefatos.png)
 
 :::caution Importante versionar essa pasta.Não adicionar no .gitignore 
 :::
@@ -52,12 +52,12 @@ Detalhes do projeto gerado em Springboot:
 
  -  project-settings.yml: No arquivo fica todas as configurações relacionadas ao projeto para serem utilizadas pelo safira-cli.
 
-![Safira Plushie](../../static/img/screenshot/exemplo_safira.png)
+![Safira Plushie](/static/img/screenshot/exemplo_safira.png)
 
 - docker:
   - Por padrão apenas um Dockerfile é criado, mas também é possível criar mais e Dockerfiles.
 
-![Dockerfile Plushie](../../static/img/screenshot/exemplo_dockerfile.png)
+![Dockerfile Plushie](/static/img/screenshot/exemplo_dockerfile.png)
 
 - kubernetes:
   - confimap.yaml: é feita uma cópia do application.properties
@@ -68,20 +68,20 @@ Detalhes do projeto gerado em Springboot:
 
   - service.yaml: configurações do kubernetes para a service da aplicação.
 
-![K8S Plushie](../../static/img/screenshot/exemplo_k8s.png)
+![K8S Plushie](/static/img/screenshot/exemplo_k8s.png)
 
 - Stubs gerados e models:
   - api: Todas as apis geradas a partir da especificação estarão descritas aqui.
   - model: Os models utilizados nas apis estarão aqui.
 
-![Stubs Plushie](../../static/img/screenshot/exemplo_stubs.png)
+![Stubs Plushie](/static/img/screenshot/exemplo_stubs.png)
 
 
 - Classes de testes geradas:
 
   -  Para cada interface será criada uma classe de teste. 
 
-![Classes Plushie](../../static/img/screenshot/exemplo_classes.png)
+![Classes Plushie](/static/img/screenshot/exemplo_classes.png)
 
   - Exemplo da classe de teste:
 
