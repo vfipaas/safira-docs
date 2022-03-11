@@ -70,6 +70,10 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/vfipaas/safira-support',
             label: 'GitHub',
@@ -120,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Vertigo, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} VFipaas, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

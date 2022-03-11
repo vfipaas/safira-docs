@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Desenvolvido por Dev para Dev',
+    title: 'De desenvolvedor para desenvolvedor',
     Svg: require('/img/transfer.svg').default,
     description: (
       <>

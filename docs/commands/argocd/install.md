@@ -3,6 +3,8 @@ sidebar_position: 1
 sidebar_label: install
 ---
 
+# install
+
 comando: `safira-cli argocd:install`
 
 Install the ArgoCD in the Kubernetes cluster
