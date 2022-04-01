@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: set
----
+<!-- order:11 -->
 ## `safira-cli dockerhub:credential:set`
 
 Configure Docker Hub credential

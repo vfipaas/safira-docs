@@ -1,8 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: build-publish
----
-
+<!-- order:22 -->
 ## `safira-cli project:build-publish`
 
 Build your project generating docker image.

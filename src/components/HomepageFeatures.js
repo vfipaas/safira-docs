@@ -14,17 +14,17 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focado no que interessa',
+    title: 'Focado no que importa',
     Svg: require('/img/monitor.svg').default,
     description: (
       <>
         Você pode focar no desenvolvimento e
-        deixar que ajudamos a configurar o devops.
+        deixar com a gente as configurações do setup do seu projeto.
       </>
     ),
   },
   {
-    title: 'De desenvolvedor para desenvolvedor',
+    title: 'Feito por devs para devs',
     Svg: require('/img/transfer.svg').default,
     description: (
       <>

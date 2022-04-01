@@ -1,9 +1,4 @@
----
-sidebar_position: 3
-sidebar_label: new
----
-
-
+<!-- order:24 -->
 ## `safira-cli project:new [PROJECT-NAME]`
 
 Create a new project

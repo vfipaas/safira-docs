@@ -1,9 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: configure
----
-
-
+<!-- order:23 -->
 ## `safira-cli project:cicd:configure`
 
 Help you configure your CI/CD pipeline for your project

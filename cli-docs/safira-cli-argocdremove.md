@@ -1,15 +1,10 @@
----
-sidebar_position: 2
-sidebar_label: remove
----
-# remove
-
-Comando: `safira-cli argocd:remove`
+<!-- order:5 -->
+## `safira-cli argocd:remove`
 
 describe the command here
 
 ```
-Exemplo
+USAGE
   $ safira-cli argocd:remove
 
 OPTIONS

@@ -1,7 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: remove
----
+<!-- order:12 -->
 ## `safira-cli gitlab:credential:remove`
 
 Remove gitlab credential

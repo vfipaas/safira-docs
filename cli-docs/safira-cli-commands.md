@@ -1,7 +1,4 @@
----
-sidebar_position: 4
-sidebar_label: commands
----
+<!-- order:9 -->
 ## `safira-cli commands`
 
 list all the commands
@@ -23,3 +20,5 @@ OPTIONS
   --output=csv|json|yaml  output in a more machine friendly format
   --sort=sort             property to sort by (prepend '-' for descending)
 ```
+
+_See code: [@oclif/plugin-commands](https://github.com/oclif/plugin-commands/blob/v2.0.2/src/commands/commands.ts)_

@@ -1,14 +1,11 @@
----
-sidebar_position: 2
-sidebar_label: remove
----
-## `safira-cli kong:remove`
+<!-- order:16 -->
+## `safira-cli kong:deploy`
 
-Remove kong
+Install Kong in your k8s cluster
 
 ```
 USAGE
-  $ safira-cli kong:remove
+  $ safira-cli kong:deploy
 
 OPTIONS
   --domain=domain                domain
@@ -19,5 +16,5 @@ OPTIONS
   --secure=yes|no                secure
 
 EXAMPLE
-  safira-cli kong:remove
+  safira-cli kong:deploy
 ```

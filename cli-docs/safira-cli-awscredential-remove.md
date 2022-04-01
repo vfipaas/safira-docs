@@ -1,7 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: remove
----
+<!-- order:7 -->
 ## `safira-cli aws:credential:remove`
 
 Remove AWS credential

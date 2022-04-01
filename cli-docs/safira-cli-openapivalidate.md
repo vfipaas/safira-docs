@@ -1,8 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: validate
----
-
+<!-- order:21 -->
 ## `safira-cli openapi:validate [FILE-PATH]`
 
 Validates your openapi file.Supports json or yaml file.

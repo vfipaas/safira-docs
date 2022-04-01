@@ -1,9 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: autocomplete
----
-
-
+<!-- order:6 -->
 ## `safira-cli autocomplete [SHELL]`
 
 display autocomplete installation instructions
@@ -24,3 +19,5 @@ EXAMPLES
   $ safira-cli autocomplete zsh
   $ safira-cli autocomplete --refresh-cache
 ```
+
+_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v1.1.1/src/commands/autocomplete/index.ts)_

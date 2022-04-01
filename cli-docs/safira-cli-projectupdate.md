@@ -1,9 +1,4 @@
----
-sidebar_position: 4
-sidebar_label: update
----
-
-
+<!-- order:25 -->
 ## `safira-cli project:update`
 
 describe the command here

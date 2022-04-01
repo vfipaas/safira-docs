@@ -1,8 +1,4 @@
----
-sidebar_position: 3
-sidebar_label: down
----
-
+<!-- order:19 -->
 ## `safira-cli okteto:down`
 
 Destroy development container

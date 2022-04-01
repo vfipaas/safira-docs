@@ -1,8 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: up
----
-
+<!-- order:20 -->
 ## `safira-cli okteto:up`
 
 Activate your development container

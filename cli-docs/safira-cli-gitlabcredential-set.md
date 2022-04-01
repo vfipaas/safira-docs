@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: set
----
+<!-- order:13 -->
 ## `safira-cli gitlab:credential:set`
 
 Configure gitlab credential

@@ -1,7 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: remove
----
+<!-- order:10 -->
 ## `safira-cli dockerhub:credential:remove`
 
 Remove Docker Hub credential

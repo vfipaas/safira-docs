@@ -1,8 +1,4 @@
----
-sidebar_position: 7
-sidebar_label: help
----
-
+<!-- order:14 -->
 ## `safira-cli help [COMMAND]`
 
 display help for safira-cli
@@ -17,3 +13,5 @@ ARGUMENTS
 OPTIONS
   --all  see all commands in CLI
 ```
+
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.18/src/commands/help.ts)_

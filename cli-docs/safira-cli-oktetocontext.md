@@ -1,8 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: context
----
-
+<!-- order:18 -->
 ## `safira-cli okteto:context`
 
 Change Okteto context
