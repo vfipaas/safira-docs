@@ -1,4 +1,6 @@
 <!-- order:5 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli argocd:remove`
 
 describe the command here

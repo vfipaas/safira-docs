@@ -6850,7 +6850,7 @@ spdy@^4.0.2:
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
 
-split-md@^0.3.0:
+split-md@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/split-md/-/split-md-0.3.0.tgz#6efc87b5459d6a5c39f082f6fe5460668fe5e56d"
   integrity sha512-jRBJasLUBkAqxYf0s1poYwBkWlSetSLB5euBuLuH2JcgypCkpDOmDEWRL3XnaGHaOCrSq2XiQyy+EDSyBM2kkw==

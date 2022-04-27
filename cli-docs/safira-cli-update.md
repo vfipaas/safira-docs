@@ -1,4 +1,6 @@
 <!-- order:26 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli update [CHANNEL]`
 
 update the safira-cli CLI

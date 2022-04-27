@@ -1,4 +1,6 @@
 <!-- order:3 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 # Commands
 <!-- commands -->
 * [`safira-cli argocd:install`](#safira-cli-argocdinstall)

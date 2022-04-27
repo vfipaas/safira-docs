@@ -1,4 +1,6 @@
 <!-- order:1 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 # Requiments
 Before install safira-cli, check if you have installed the following dependencies:
 - [python v3.6+](https://www.python.org/downloads/)

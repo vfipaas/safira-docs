@@ -1,4 +1,6 @@
 <!-- order:16 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli kong:deploy`
 
 Install Kong in your k8s cluster

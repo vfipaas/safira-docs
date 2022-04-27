@@ -1,4 +1,6 @@
 <!-- order:9 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli commands`
 
 list all the commands

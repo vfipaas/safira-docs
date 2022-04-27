@@ -1,4 +1,6 @@
 <!-- order:23 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli project:cicd:configure`
 
 Help you configure your CI/CD pipeline for your project

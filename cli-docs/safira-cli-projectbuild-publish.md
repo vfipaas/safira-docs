@@ -1,4 +1,6 @@
 <!-- order:22 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli project:build-publish`
 
 Build your project generating docker image.

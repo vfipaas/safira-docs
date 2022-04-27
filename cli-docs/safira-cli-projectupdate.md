@@ -1,4 +1,6 @@
 <!-- order:25 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli project:update`
 
 describe the command here

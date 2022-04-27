@@ -1,4 +1,6 @@
 <!-- order:6 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli autocomplete [SHELL]`
 
 display autocomplete installation instructions

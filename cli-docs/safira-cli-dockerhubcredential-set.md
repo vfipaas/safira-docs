@@ -1,4 +1,6 @@
 <!-- order:11 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli dockerhub:credential:set`
 
 Configure Docker Hub credential

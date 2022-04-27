@@ -1,4 +1,6 @@
 <!-- order:20 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli okteto:up`
 
 Activate your development container

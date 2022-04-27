@@ -1,4 +1,6 @@
 <!-- order:19 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli okteto:down`
 
 Destroy development container

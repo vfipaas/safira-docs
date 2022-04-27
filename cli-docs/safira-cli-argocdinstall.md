@@ -1,4 +1,6 @@
 <!-- order:4 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli argocd:install`
 
 Install the ArgoCD in the Kubernetes cluster

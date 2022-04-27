@@ -1,4 +1,6 @@
 <!-- order:24 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli project:new [PROJECT-NAME]`
 
 Create a new project

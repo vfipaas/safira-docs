@@ -1,4 +1,6 @@
 <!-- order:10 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli dockerhub:credential:remove`
 
 Remove Docker Hub credential

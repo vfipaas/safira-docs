@@ -19,6 +19,7 @@ node ${SCRIPT_PATH}/node_modules/split-md/src/index.js "${SAFIRTA_CLI_TMP}/READM
 for file in ${OUTPUT_FOLDER}/*; do
     new_file=$(echo ${file} | sed -e's/#*//g' | sed -e's/`*//g' | sed -e's/  */-/g' | sed -e's/:/-/g' | sed 's/-\[[^]]*\]//g')
     mv "$file" "${new_file,,}"
+    sed -i "2 i\<!-- PLEASE! Don't edit this file, auto generated! -->\n" "${new_file,,}"
 done
 
 rm -rf ${SPLIT_DIR}

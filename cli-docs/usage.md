@@ -1,4 +1,6 @@
 <!-- order:2 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 # Usage
 <!-- usage -->
 ```sh-session

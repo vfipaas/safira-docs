@@ -31,6 +31,12 @@ title: Pré-requisitos
 ## Instalando no Debian/Ubuntu
 Exemplo de instalação no Debian/Ubuntu.
 
+### dependências
+```bash
+sudo apt update
+sudo apt install zip unzip curl -y
+```
+
 ### Instalando Docker
 [Mais sobre docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 ```bash

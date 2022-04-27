@@ -1,4 +1,6 @@
 <!-- order:21 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli openapi:validate [FILE-PATH]`
 
 Validates your openapi file.Supports json or yaml file.

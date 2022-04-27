@@ -1,4 +1,6 @@
 <!-- order:12 -->
+<!-- PLEASE! Don't edit this file, auto generated! -->
+
 ## `safira-cli gitlab:credential:remove`
 
 Remove gitlab credential
