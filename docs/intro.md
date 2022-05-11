@@ -5,7 +5,7 @@ sidebar_label: Intro
 
 # Safira CLI
 
-Nós simplificamos a complexidade no processo de construção de suas APIs, facilitando a criação de ambiente de desenvolvimento com agilidade, performance e escalabilidade, aumentando a produtividade e melhorando a experiência dos desenvolvedores.
+Acreditamos que atráves da criação das especificações da API antes do desenvolvimento dela evita o retrabalho que muitos projetos acabam passando quando uma especificação não atende o que o usuario precisa, então nós simplificamos a complexidade e a repetição de etapas que não agregam ao desenvolvedor no processo de construção de suas APIs, facilitando a criação de ambiente de desenvolvimento com agilidade, performance e escalabilidade, aumentando a produtividade e melhorando a experiência dos desenvolvedores.
 
 ### As principais vantagens da aplicação do safira-cli
 

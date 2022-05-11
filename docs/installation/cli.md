@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: safira-cli
+sidebar_label: Safira-cli
 ---
 
 

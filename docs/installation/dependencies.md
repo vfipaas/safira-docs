@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: pré-requisitos
+sidebar_label: Pré-requisitos
 title: Pré-requisitos
 ---
 
@@ -31,7 +31,7 @@ title: Pré-requisitos
 ## Instalando no Debian/Ubuntu
 Exemplo de instalação no Debian/Ubuntu.
 
-### dependências
+### Dependências
 ```bash
 sudo apt update
 sudo apt install zip unzip curl -y

@@ -3,7 +3,7 @@
 
 ## `safira-cli autocomplete [SHELL]`
 
-display autocomplete installation instructions
+Display autocomplete installation instructions
 
 ```
 USAGE
