@@ -7,6 +7,7 @@ title: Instalação MockServer
 # Mockserver.
 
 Mock Server e um serviço para simulação do fluxo de uma requisição de modo obter uma resposta esperada a mesma:
+
 exemplo: o retorno de uma requisão a uma API:
 
 ## Fluxo:
