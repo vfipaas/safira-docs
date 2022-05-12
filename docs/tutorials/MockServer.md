@@ -36,9 +36,13 @@ helm upgrade --install --namespace mockserver --create-namespace --version 5.13.
 kubectl -n mockserver port-forward svc/mockserver 1080:1080
 ```
 4. Link da UI:
+```
 http(s)://<host>:<port>/mockserver/dashboard
+
 Exemplo:
+
 http://localhost:1080/mockserver/dashboard
+```
 
 ![Mock_UI](/img/screenshot/Mock_ui.png)
 
@@ -48,6 +52,6 @@ helm delete -n mockserver mockserver
 ```
 ## O tutorial de cada uma deles pode ser obtido no link: 
 
-[https://www.mock-server.com/mock_server/running_mock_server.html] 
+https://www.mock-server.com/mock_server/running_mock_server.html 
 
 
