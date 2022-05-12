@@ -3,23 +3,29 @@
 
 ## `safira-cli autocomplete [SHELL]`
 
-Display autocomplete installation instructions
+display autocomplete installation instructions
 
 ```
 USAGE
-  $ safira-cli autocomplete [SHELL]
+  $ safira-cli autocomplete [SHELL] [-r]
 
 ARGUMENTS
   SHELL  shell type
 
-OPTIONS
+FLAGS
   -r, --refresh-cache  Refresh cache (ignores displaying instructions)
+
+DESCRIPTION
+  display autocomplete installation instructions
 
 EXAMPLES
   $ safira-cli autocomplete
+
   $ safira-cli autocomplete bash
+
   $ safira-cli autocomplete zsh
+
   $ safira-cli autocomplete --refresh-cache
 ```
 
-_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v1.1.1/src/commands/autocomplete/index.ts)_
+_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v1.3.0/src/commands/autocomplete/index.ts)_

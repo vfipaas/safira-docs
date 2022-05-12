@@ -1,19 +1,22 @@
-<!-- order:14 -->
+<!-- order:18 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli help [COMMAND]`
 
-display help for safira-cli
+Display help for safira-cli.
 
 ```
 USAGE
-  $ safira-cli help [COMMAND]
+  $ safira-cli help [COMMAND] [-n]
 
 ARGUMENTS
-  COMMAND  command to show help for
+  COMMAND  Command to show help for.
 
-OPTIONS
-  --all  see all commands in CLI
+FLAGS
+  -n, --nested-commands  Include all nested commands in the output.
+
+DESCRIPTION
+  Display help for safira-cli.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.18/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.12/src/commands/help.ts)_
