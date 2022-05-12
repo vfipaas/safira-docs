@@ -12,7 +12,7 @@ exemplo: o retorno de uma requisão a uma API:
 
 ## Fluxo:
 
-![Fluxo_Mock](/img/screenshot/Fluxo_Mock.png)
+![Fluxo_Mock](/img/tutorial/Fluxo_Mock.png)
 
 
 ## Instalação do Mock Server:
@@ -45,7 +45,7 @@ Exemplo:
 http://localhost:1080/mockserver/dashboard
 ```
 
-![Mock_UI](/img/screenshot/Mock_ui.png)
+![Mock_UI](/img/tutorial/Mock_UI.png)
 
 5. Uninstall MockServer via heml:
 ```
