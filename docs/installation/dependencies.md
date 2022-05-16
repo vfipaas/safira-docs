@@ -51,12 +51,12 @@ sudo usermod -aG docker $USER && \
 newgrp docker
 ```
 
-### Instalando NodeJS 14 usando nvm
+### Instalando NodeJS 16 usando nvm
 [Mais sobre o nvm](https://github.com/nvm-sh/nvm)
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
-nvm install 14
+nvm install 16
 ```
 
 ### Instalando Java usando o SdkMan
