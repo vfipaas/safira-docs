@@ -1,4 +1,4 @@
-<!-- order:21 -->
+<!-- order:23 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli kong remove`

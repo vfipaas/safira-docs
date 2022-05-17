@@ -1,4 +1,4 @@
-<!-- order:14 -->
+<!-- order:16 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli github credential remove`

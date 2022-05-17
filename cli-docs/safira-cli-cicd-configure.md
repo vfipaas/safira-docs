@@ -1,13 +1,13 @@
-<!-- order:27 -->
+<!-- order:11 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
-## `safira-cli project cicd configure`
+## `safira-cli cicd configure`
 
 Help you configure your CI/CD pipeline for your project
 
 ```
 USAGE
-  $ safira-cli project cicd configure [--help] [-e <value>] [-u <value>] [-t <value>]
+  $ safira-cli cicd configure [--help] [-e <value>] [-u <value>] [-t <value>]
 
 FLAGS
   -e, --email=<value>     email
@@ -19,5 +19,5 @@ DESCRIPTION
   Help you configure your CI/CD pipeline for your project
 
 EXAMPLES
-  $ safira-cli project cicd configure
+  $ safira-cli cicd configure
 ```

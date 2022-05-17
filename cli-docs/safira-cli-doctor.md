@@ -1,13 +1,19 @@
-<!-- order:27 -->
+<!-- order:15 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli doctor`
 
-Validates if you have all dependencies installed
-
+Check the health of the dependencies
 
 ```
 USAGE
   $ safira-cli doctor
+
+DESCRIPTION
+  Check the health of the dependencies
+
+EXAMPLES
+  $ safira-cli doctor
 ```
 
+_See code: [dist/commands/doctor.ts](https://github.com/vfipaas/safira-cli/blob/v0.4.0/dist/commands/doctor.ts)_

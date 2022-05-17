@@ -1,4 +1,4 @@
-<!-- order:25 -->
+<!-- order:28 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli openapi validate [FILE-PATH]`

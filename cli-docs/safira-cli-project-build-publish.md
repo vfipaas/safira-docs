@@ -1,4 +1,4 @@
-<!-- order:26 -->
+<!-- order:29 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli project build-publish`

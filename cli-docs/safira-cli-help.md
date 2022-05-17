@@ -1,4 +1,4 @@
-<!-- order:18 -->
+<!-- order:20 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli help [COMMAND]`

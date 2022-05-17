@@ -1,4 +1,4 @@
-<!-- order:16 -->
+<!-- order:18 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli gitlab credential remove`
