@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_safira=self.webpackChunkdocusaurus_safira||[]).push([[707],{1999:function(a){a.exports=JSON.parse('{"allTagsPath":"/safira-docs/blog/tags","slug":"/safira-docs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/safira-docs/blog/tags/facebook"}')}}]);
