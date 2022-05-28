@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
-sidebar_label: Safira-cli
+sidebar_label: Safira CLI
+title: Safira CLI
 ---
 
 
