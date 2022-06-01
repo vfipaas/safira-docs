@@ -57,4 +57,4 @@ https://www.mock-server.com/mock_server/running_mock_server.html
 
 ____________________________________________________
 # Use o safira-cli para criar o mock de uma spec openapi:
-Confira o comando [safira-cli mockserver spec deploy](../docs/commands/mockserver/).
+Confira o comando [safira-cli mockserver spec deploy](../commands/mockserver/).
