@@ -28,6 +28,16 @@ title: Pré-requisitos
 
   - **[maven](https://maven.apache.org/download.cgi)**
 
+### Utilize o safira-doctor para verificar se os pré-requisitos estão instalados
+```sh
+npx @vfipaas/safira-doctor
+```
+:::note
+
+Caso não possua o npx instalado, **[siga essa instrução para o node](#instalando-nodejs-16-usando-nvm)** e volte novamente para este passo.
+
+:::
+
 ## Instalando no Debian/Ubuntu
 Exemplo de instalação no Debian/Ubuntu.
 
