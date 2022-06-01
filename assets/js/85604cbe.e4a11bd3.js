@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_safira=self.webpackChunkdocusaurus_safira||[]).push([[6017],{6227:function(a){a.exports=JSON.parse('{"label":"hello","permalink":"/safira-docs/blog/tags/hello","allTagsPath":"/safira-docs/blog/tags","count":2}')}}]);
