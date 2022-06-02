@@ -7,8 +7,8 @@
 $ npm install -g @vfipaas/safira-cli
 $ safira-cli COMMAND
 running command...
-$ safira-cli (-v|--version|version)
-@vfipaas/safira-cli/0.3.5 linux-x64 node-v14.18.2
+$ safira-cli (--version)
+@vfipaas/safira-cli/0.4.0 linux-x64 node-v16.15.0
 $ safira-cli --help [COMMAND]
 USAGE
   $ safira-cli COMMAND

@@ -28,6 +28,16 @@ title: Pré-requisitos
 
   - **[maven](https://maven.apache.org/download.cgi)**
 
+### Utilize o safira-doctor para verificar se os pré-requisitos estão instalados
+```sh
+npx @vfipaas/safira-doctor
+```
+:::note
+
+Caso não possua o npx instalado, **[siga essa instrução para o node](#instalando-nodejs-16-usando-nvm)** e volte novamente para este passo.
+
+:::
+
 ## Instalando no Debian/Ubuntu
 Exemplo de instalação no Debian/Ubuntu.
 
@@ -51,12 +61,12 @@ sudo usermod -aG docker $USER && \
 newgrp docker
 ```
 
-### Instalando NodeJS 14 usando nvm
+### Instalando NodeJS 16 usando nvm
 [Mais sobre o nvm](https://github.com/nvm-sh/nvm)
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
-nvm install 14
+nvm install 16
 ```
 
 ### Instalando Java usando o SdkMan

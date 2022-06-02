@@ -28,8 +28,8 @@ const FeatureList = [
     Svg: require('/img/transfer.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Criado por desenvolvedores para ajudar outros desenvolvedores durante o dia a dia.
+        .
       </>
     ),
   },
