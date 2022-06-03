@@ -1,10 +1,12 @@
 ---
 sidebar_position: 1
 sidebar_label: Pré-requisitos
-title: Pré-requisitos
+title: Instalação Linux
 ---
+## Instalando no Debian/Ubuntu
+Exemplo de instalação no Debian/Ubuntu.
 
-## Pré-Requisitos
+## Pré-requisitos
 
   - **[docker](https://docs.docker.com/engine/install/)**
 
@@ -38,10 +40,14 @@ Caso não possua o npx instalado, **[siga essa instrução para o node](#instala
 
 :::
 
-## Instalando no Debian/Ubuntu
-Exemplo de instalação no Debian/Ubuntu.
+![safira-doctor-output](/img/installation/safira-doctor-output.png)
 
-### Dependências
+Se obteve uma resposta como o exemplo acima siga para **[Instalação do Safira-CLI](./safira-cli)**. Caso obtenha uma resposta diferente da mostrada no exemplo acima, por favor refira-se as instruções abaixo para a instalação da(s) dependência(s) que não estão compativeis com os pré-requisitos. 
+
+
+
+## Dependências
+
 ```bash
 sudo apt update
 sudo apt install zip unzip curl -y
