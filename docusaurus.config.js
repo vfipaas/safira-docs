@@ -127,6 +127,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} VFipaas, Inc. Built with Docusaurus.`,
       },
       prism: {
+        additionalLanguages: ['bash'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },

@@ -32,7 +32,7 @@ $ okteto context list
 
 ![Okteto](/img/screenshot/Okteto/Okteto3.png)
 
-##Iniciando sua aplicação
+## Iniciando sua aplicação
 
 Gerando sua aplicação pelo Safira-CLI já garante a criação de um [manifesto do Okteto](https://www.okteto.com/docs/reference/manifest/) e usaremos ele para subir nossa aplicação ao ambiente de desenvolvimento 
 usando o seguinte comando. 
@@ -42,6 +42,36 @@ $ okteto up
 ```
 
 ![Okteto](/img/screenshot/Okteto/Okteto4.png)
+
+## Executando container de desenvolvimento
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Esse comando deve ser rodado dentro do container de desenvolvimento para startar a aplicação informando o profile okteto.
+
+
+<Tabs
+    defaultValue="maven"
+    values={[
+        {label: 'Maven', value: 'maven'},
+        {label: 'Gradle', value: 'gradle'},
+    ]}>
+<TabItem value="maven">
+
+  
+    ./mvnw quarkus:dev -Dquarkus.profile=okteto
+
+    
+</TabItem>
+<TabItem value="gradle">
+
+
+    ./gradlew quarkusDev -Dquarkus.profile=okteto
+
+
+</TabItem>
+</Tabs>
+
 
 Após isso você terá acesso aos endpoints da sua aplicação através do [Okteto Cloud](https://cloud.okteto.com/)
 
