@@ -1,4 +1,4 @@
-<!-- order:6 -->
+<!-- order:7 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli autocomplete [SHELL]`

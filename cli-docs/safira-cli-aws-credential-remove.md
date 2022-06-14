@@ -1,4 +1,4 @@
-<!-- order:7 -->
+<!-- order:8 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli aws credential remove`

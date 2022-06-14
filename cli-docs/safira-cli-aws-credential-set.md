@@ -1,4 +1,4 @@
-<!-- order:8 -->
+<!-- order:9 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli aws credential set`

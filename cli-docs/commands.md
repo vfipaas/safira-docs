@@ -3,6 +3,7 @@
 
 # Commands
 <!-- commands -->
+* [`safira-cli argocd config-repo`](#safira-cli-argocd-config-repo)
 * [`safira-cli argocd install`](#safira-cli-argocd-install)
 * [`safira-cli argocd remove`](#safira-cli-argocd-remove)
 * [`safira-cli autocomplete [SHELL]`](#safira-cli-autocomplete-shell)

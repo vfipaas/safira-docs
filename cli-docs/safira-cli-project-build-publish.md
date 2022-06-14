@@ -1,4 +1,4 @@
-<!-- order:29 -->
+<!-- order:30 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli project build-publish`
@@ -13,7 +13,7 @@ FLAGS
   -v, --version=<value>  App Version
   --docker-file=<value>  Dockerfile path
   --help                 Show CLI help.
-  --skip-test=<option>   [default: no] Skip test
+  --skip-test=<option>   Skip test
                          <options: yes|no>
 
 DESCRIPTION
