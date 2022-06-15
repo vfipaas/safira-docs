@@ -32,3 +32,4 @@
 * [`safira-cli project build-publish`](#safira-cli-project-build-publish)
 * [`safira-cli project new [PROJECT-NAME]`](#safira-cli-project-new-project-name)
 * [`safira-cli project update`](#safira-cli-project-update)
+* [`safira-cli spec publish`](#safira-cli-spec-publish)

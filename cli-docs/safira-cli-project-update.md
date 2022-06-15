@@ -18,4 +18,3 @@ FLAGS
 DESCRIPTION
   describe the command here
 ```
-<!-- commandsstop -->
