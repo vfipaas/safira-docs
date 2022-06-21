@@ -1,4 +1,4 @@
-<!-- order:15 -->
+<!-- order:16 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli doctor`
@@ -16,4 +16,4 @@ EXAMPLES
   $ safira-cli doctor
 ```
 
-_See code: [dist/commands/doctor.ts](https://github.com/vfipaas/safira-cli/blob/v0.4.0/dist/commands/doctor.ts)_
+_See code: [dist/commands/doctor.ts](https://github.com/vfipaas/safira-cli/blob/v0.5.1/dist/commands/doctor.ts)_

@@ -3,6 +3,7 @@
 
 # Commands
 <!-- commands -->
+* [`safira-cli argocd config-repo`](#safira-cli-argocd-config-repo)
 * [`safira-cli argocd install`](#safira-cli-argocd-install)
 * [`safira-cli argocd remove`](#safira-cli-argocd-remove)
 * [`safira-cli autocomplete [SHELL]`](#safira-cli-autocomplete-shell)
@@ -31,3 +32,4 @@
 * [`safira-cli project build-publish`](#safira-cli-project-build-publish)
 * [`safira-cli project new [PROJECT-NAME]`](#safira-cli-project-new-project-name)
 * [`safira-cli project update`](#safira-cli-project-update)
+* [`safira-cli spec publish`](#safira-cli-spec-publish)

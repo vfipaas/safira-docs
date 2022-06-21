@@ -1,10 +1,12 @@
 ---
 sidebar_position: 1
 sidebar_label: Pré-requisitos
-title: Pré-requisitos
+title: Instalação Linux
 ---
+## Instalando no Debian/Ubuntu
+Exemplo de instalação no Debian/Ubuntu.
 
-## Pré-Requisitos
+## Pré-requisitos
 
   - **[docker](https://docs.docker.com/engine/install/)**
 
@@ -28,10 +30,24 @@ title: Pré-requisitos
 
   - **[maven](https://maven.apache.org/download.cgi)**
 
-## Instalando no Debian/Ubuntu
-Exemplo de instalação no Debian/Ubuntu.
+### Utilize o safira-doctor para verificar se os pré-requisitos estão instalados
+```sh
+npx @vfipaas/safira-doctor
+```
+:::note
 
-### Dependências
+Caso não possua o npx instalado, **[siga essa instrução para o node](#instalando-nodejs-16-usando-nvm)** e volte novamente para este passo.
+
+:::
+
+![safira-doctor-output](/img/installation/safira-doctor-output.png)
+
+Se obteve uma resposta como o exemplo acima siga para **[Instalação do Safira-CLI](./safira-cli)**. Caso obtenha uma resposta diferente da mostrada no exemplo acima, por favor refira-se as instruções abaixo para a instalação da(s) dependência(s) que não estão compativeis com os pré-requisitos. 
+
+
+
+## Dependências
+
 ```bash
 sudo apt update
 sudo apt install zip unzip curl -y

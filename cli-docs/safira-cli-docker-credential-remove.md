@@ -1,9 +1,9 @@
-<!-- order:13 -->
+<!-- order:14 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli docker credential remove`
 
-describe the command here
+Remove Docker Registry credential
 
 ```
 USAGE
@@ -13,7 +13,7 @@ FLAGS
   --help  Show CLI help.
 
 DESCRIPTION
-  describe the command here
+  Remove Docker Registry credential
 
 EXAMPLES
   $ safira-cli docker credential remove

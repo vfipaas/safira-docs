@@ -1,4 +1,4 @@
-<!-- order:9 -->
+<!-- order:10 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli bitbucket credential remove`

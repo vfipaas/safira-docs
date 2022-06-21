@@ -8,13 +8,11 @@ title: Hello World
 
 ## Iniciando o projeto com o Spring Boot.
 
+![Hello World](/img/tutorial/springbootig.gif)
+
 1. Crie uma pasta que você queira que seu projeto seja criado.
 
 2. Na pasta criada abra um terminal de linha de comando da sua preferência (Bash, ZSH, e etc.).
-
-![Hello World](/img/screenshot/Hello1.png)
-
-
 
 3. Para criar um projeto use o comando:
 
@@ -22,82 +20,31 @@ title: Hello World
 safira-cli project:new PROJECT-NAME
 ```
 
-![Hello-World](/img/screenshot/Hello2.png)
-
-
-
 **Substitua PROJECT-NAME pelo nome do projeto desejado ou use "." para criar o projeto na pasta atual.**
 
 4. Escolha se deseja usar um arquivo OpenAPI ou um arquivo do Insomnia Workspace.
 
-![Hello-World](/img/screenshot/Hello3.png)
-
-
 5. Diga o caminho de onde está seu arquivo OpenAPI(yaml/json) com as specs de seu projeto.
-
-![Hello-World](/img/screenshot/Hello4.png)
-
 
 6. Escreva uma descrição para seu Projeto.
 
-![Hello-World](/img/screenshot/Hello5.png)
-
-
-
 7. Escolha uma porta que seu projeto irá usar, por padrão o Safira usa a porta 8080. 
-
-![Hello-World](/img/screenshot/Hello6.png)
-
-
 
 8. Escolha se deseja criar um mapeamento dos endpoints para o Kong.
 
-![Hello-World](/img/screenshot/Hello7.png)
-
-
-
 9. Qual framework deseja trabalhar.
-
-![Hello-World](/img/screenshot/Hello8.png)
-
-
 
 10. Escolha em qual versão do Java deseja que seu projeto esteja.
 
-![Hello-World](/img/screenshot/Hello9.png)
-
-
 11. O Gerenciador de pacotes que deseja utilizar.
-
-![Hello-World](/img/screenshot/Hello10.png)
-
-
 
 12. A versão do framework escolhido.
 
-![Hello-World](/img/screenshot/Hello11.png)
-
-
-
 13. A nomenclatura dos pacotes java do projeto.
-
-![Hello-World](/img/screenshot/Hello12.png)
-
-
 
 14. O registro do docker.
 
-![Hello-World](/img/screenshot/Hello13.png)
-
-
-
 15. O  nome do espaço Kubernetes.
-
-![Hello-World](/img/screenshot/Hello14.png)
-
-
-
-
 
 16. Pronto o seu projeto Hello World está criado.
 

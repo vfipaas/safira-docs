@@ -1,4 +1,4 @@
-<!-- order:31 -->
+<!-- order:32 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli project update`
@@ -18,4 +18,3 @@ FLAGS
 DESCRIPTION
   describe the command here
 ```
-<!-- commandsstop -->

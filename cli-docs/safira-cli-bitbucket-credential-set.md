@@ -1,4 +1,4 @@
-<!-- order:10 -->
+<!-- order:11 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli bitbucket credential set`

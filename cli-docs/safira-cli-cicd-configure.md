@@ -1,4 +1,4 @@
-<!-- order:11 -->
+<!-- order:12 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli cicd configure`
@@ -7,13 +7,10 @@ Help you configure your CI/CD pipeline for your project
 
 ```
 USAGE
-  $ safira-cli cicd configure [--help] [-e <value>] [-u <value>] [-t <value>]
+  $ safira-cli cicd configure [--help]
 
 FLAGS
-  -e, --email=<value>     email
-  -t, --token=<value>     token
-  -u, --username=<value>  username
-  --help                  Show CLI help.
+  --help  Show CLI help.
 
 DESCRIPTION
   Help you configure your CI/CD pipeline for your project

@@ -1,9 +1,9 @@
-<!-- order:21 -->
+<!-- order:22 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli insomnia test`
 
-describe the command here
+Run your insomnia test
 
 ```
 USAGE
@@ -14,5 +14,5 @@ FLAGS
   --inso-spec-name=<value>  The name of the INSO specification.
 
 DESCRIPTION
-  describe the command here
+  Run your insomnia test
 ```

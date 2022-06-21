@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-sidebar_label: Intro
+sidebar_label: Começando com o Safira
+title: Começando com o Safira
 ---
 
 # Safira CLI
