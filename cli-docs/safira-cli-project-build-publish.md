@@ -1,4 +1,4 @@
-<!-- order:30 -->
+<!-- order:32 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli project build-publish`
@@ -8,13 +8,15 @@ Build your project generating docker image.
 ```
 USAGE
   $ safira-cli project build-publish [--help] [--docker-file <value>] [-v <value>] [--skip-test yes|no]
+    [--docker-repository <value>]
 
 FLAGS
-  -v, --version=<value>  App Version
-  --docker-file=<value>  Dockerfile path
-  --help                 Show CLI help.
-  --skip-test=<option>   Skip test
-                         <options: yes|no>
+  -v, --version=<value>        App Version
+  --docker-file=<value>        Dockerfile path
+  --docker-repository=<value>  Docker repository
+  --help                       Show CLI help.
+  --skip-test=<option>         Skip test
+                               <options: yes|no>
 
 DESCRIPTION
   Build your project generating docker image.

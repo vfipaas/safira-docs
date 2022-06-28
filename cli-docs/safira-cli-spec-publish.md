@@ -1,4 +1,4 @@
-<!-- order:33 -->
+<!-- order:35 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli spec publish`

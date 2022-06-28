@@ -1,4 +1,4 @@
-<!-- order:31 -->
+<!-- order:33 -->
 <!-- PLEASE! Don't edit this file, auto generated! -->
 
 ## `safira-cli project new [PROJECT-NAME]`
@@ -12,7 +12,7 @@ USAGE
     gradle|maven] [--java-springboot-version <value>] [--java-package <value>] [--java-version java8|java11|java17]
     [--application-port <value>] [--kong-kubernetes yes|no] [--use-database yes|no] [--database
     postgresql|mysql|mariadb|oracle] [--database-url <value>] [--database-user <value>] [--database-password <value>]
-    [--export-spec yes|no] [--quarkus-version 2.8|2.9]
+    [--export-spec yes|no] [--quarkus-version <value>]
 
 ARGUMENTS
   PROJECT-NAME  Use '.' to create project into current folder or name of the project to create a new folder.User
@@ -42,8 +42,7 @@ FLAGS
   --new-project-root=<value>              The path where new projects will be created, relative to the new workspace
                                           root.
   --project-description=<value>           The description of the new project.
-  --quarkus-version=<option>              Quarkus version
-                                          <options: 2.8|2.9>
+  --quarkus-version=<value>               Quarkus version
   --use-database=<option>                 Use database
                                           <options: yes|no>
 

@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master]
-    # paths: [src/**]
+    branches: 
+    - master
 
 jobs:
   deploy:
@@ -34,4 +34,4 @@ jobs:
           # The GH actions bot is used by default if you didn't specify the two fields.
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
-          user_email: ipaas@vertigo.com.br
+          user_email: github-actions@vee.codes

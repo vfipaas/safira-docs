@@ -24,6 +24,8 @@
 * [`safira-cli insomnia test`](#safira-cli-insomnia-test)
 * [`safira-cli kong deploy`](#safira-cli-kong-deploy)
 * [`safira-cli kong remove`](#safira-cli-kong-remove)
+* [`safira-cli mockserver install`](#safira-cli-mockserver-install)
+* [`safira-cli mockserver remove`](#safira-cli-mockserver-remove)
 * [`safira-cli mockserver spec deploy [FILE]`](#safira-cli-mockserver-spec-deploy-file)
 * [`safira-cli okteto context`](#safira-cli-okteto-context)
 * [`safira-cli okteto down`](#safira-cli-okteto-down)

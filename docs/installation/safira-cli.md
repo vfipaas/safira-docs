@@ -6,8 +6,8 @@ title: Safira CLI
 
 
 ## Instalação Safira-CLI
-Comando para instalação global:
+O comando irá instalar o **safira-cli** no seu sistema:
 
 ```bash
-npm install -g @vfipaas/safira-cli
+curl https://vfipaas.github.io/safira-support/install.sh -sSfL | bash
 ```
