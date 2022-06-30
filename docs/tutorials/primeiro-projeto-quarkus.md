@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 sidebar_label: Primeiro Projeto com Safira em Quarkus
 title: Hello World
 ---

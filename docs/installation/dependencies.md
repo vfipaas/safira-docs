@@ -10,25 +10,11 @@ Exemplo de instalação no Debian/Ubuntu.
 
   - **[docker](https://docs.docker.com/engine/install/)**
 
-  - **[node_gyp](https://www.npmjs.com/package/node-gyp)**
-
-  - **[python_v3.6+](https://www.python.org/downloads/)**
-
-  - **[nodejs14+](https://nodejs.org/en/download/)**
-
-  - **[make](https://www.gnu.org/software/make/)**
-  
-  - **[cmake](https://cmake.org/download/)**
-
-  - **[g++](http://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.neutrino_utilities/g/gxx.html)**
-
-  - **[jq](https://stedolan.github.io/jq/download/)**
-
   - **[curl](https://curl.se/download.html)**
 
   - **[java8+](https://www.java.com/pt-BR/download/manual.jsp)**
 
-  - **[maven](https://maven.apache.org/download.cgi)**
+  - **[git](https://maven.apache.org/download.cgi)**
 
 ### Utilize o safira-doctor para verificar se os pré-requisitos estão instalados
 ```sh
@@ -67,14 +53,6 @@ sudo usermod -aG docker $USER && \
 newgrp docker
 ```
 
-### Instalando NodeJS 16 usando nvm
-[Mais sobre o nvm](https://github.com/nvm-sh/nvm)
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-source ~/.bashrc
-nvm install 16
-```
-
 ### Instalando Java usando o SdkMan
 [Mais sobre o SdkMan](https://sdkman.io/)
 ```bash
@@ -87,5 +65,5 @@ sdk install java 11.0.12-open
 ### Instalando demais dependências
 ```bash
 sudo apt update
-sudo apt install node-gyp make cmake g++ jq curl maven
+sudo apt install curl 
 ```
