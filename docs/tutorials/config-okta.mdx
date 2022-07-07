@@ -1,0 +1,49 @@
+---
+sidebar_position: 10
+sidebar_label: Configurando Okta
+title: Okta 
+---
+
+
+### O que é o Okta?
+
+A ferramenta Okta é usada para nós autenticarmos o acesso ao nosso Dev Portal.
+
+
+## Começando com Okta
+
+1. Acesse o site do **[Okta Developer](https://developer.okta.com/)** e crie uma conta a partir de seu e-mail.
+
+![okta-signin](/img/tutorial/okta-signin.gif)
+
+2. Para criar o autenticador de acesso do seu Dev Portal siga o caminho **Applications > Applications > Create App Integration.**
+
+Em **Create App Integration** selecione as seguintes opções:
+- OIDC - OpenID Connect
+- <li>Web Application</li>
+
+Nas configurações da Aplicação marque os seguintes itens:   
+
+Em **Grant type** :
+ - Refresh Token
+
+Em **Assignments**:
+ - Skip group assignment for now
+
+
+
+Pode finalizar a criação da Aplicação.
+
+![okta-create-app](/img/tutorial/okta-create-app.gif)
+
+:::caution Após a criação da aplicação guarde as seguintes informações : Client ID, Client Secret e URL (Na URL delete o texto "-admin") de seu Portal Okta para usar na configuração de seu Dev Portal!
+:::
+![okta-url](/img/tutorial/okta-url.png)
+![okta-page-app](/img/tutorial/okta-page-app.png)
+
+
+## Criação de grupos.
+
+No menu lateral de seu Portal Okta vá em **Directory > Groups > Add Group**, acesse a página do grupo criado clicando em seu nome e no menu selecione **Applications > Assign Application** e adicione à lista a Aplicação criada.
+
+![okta-create-group](/img/tutorial/okta-create-group.gif)
