@@ -1,18 +1,17 @@
 ---
 sidebar_position: 1
-sidebar_label: Começando com o Safira
-title: Começando com o Safira
+sidebar_label: Starting with Safira
+title: Starting with Safira
 ---
 
 # Safira CLI
 
-Acreditamos que atráves da criação das especificações da API antes do desenvolvimento dela evita o retrabalho que muitos projetos acabam passando quando uma especificação não atende o que o usuario precisa, então nós simplificamos a complexidade e a repetição de etapas que não agregam ao desenvolvedor no processo de construção de suas APIs, facilitando a criação de ambiente de desenvolvimento com agilidade, performance e escalabilidade, aumentando a produtividade e melhorando a experiência dos desenvolvedores.
+We believe that elaborating the specification file of the API before the development of it avoid having to revisit and reworking that many projects go through when the Spec doesn't deliver what the user needs, so we simplified the complexity and repeatability of steps that don't have added value to the developer during the construction process of the API, making the establishment of the development enviroment with agility, perfomance and escalability, raising productivity and improving the developers experience.
 
-### As principais vantagens da aplicação do safira-cli
+### Main advantages of Safira-CLI
 
-- Geração de templates de projetos Java **[SpringBoot](https://spring.io/)** e **[Quarkus](https://quarkus.io/)**
-- Arquivos de configuração do **[Kubernetes](https://kubernetes.io/pt-br/)** e **[Docker](https://www.docker.com/)** File
-- Gerar mapeamento de endpoints e plugins para o **[Kong](https://konghq.com/)** via **[Insommia](https://insomnia.rest/download)**
-- Disponibiliza o runTime do **[Okteto](https://okteto.com/)**
-
-- Deploy automatizado usando **[ArgoCD](https://argo-cd.readthedocs.io/en/stable/)**
+- Auto-Generation of Java projects templates with **[SpringBoot](https://spring.io/)** and **[Quarkus](https://quarkus.io/)**.
+- **[Kubernetes](https://kubernetes.io/pt-br/)** and **[Docker](https://www.docker.com/)** configuration files.
+- Generate endpoints maping and plugins for o **[Kong](https://konghq.com/)** via **[Insommia](https://insomnia.rest/download)**.
+- Provides **[Okteto](https://okteto.com/)** runTime.
+- Automatic deploy with **[ArgoCD](https://argo-cd.readthedocs.io/en/stable/)**.

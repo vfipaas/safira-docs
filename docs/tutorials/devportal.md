@@ -1,50 +1,45 @@
 ---
 sidebar_position: 1
-sidebar_label: Conhecendo o Devportal
+sidebar_label: Meet the DevPortal   
 title: Devportal
 ---
 
-## O que é o Devportal?
+## What is the DevPortal?
 
-**O Devportal** ajuda você disponibilizar suas APIs para os clientes. Quando você publica APIs no Devportal os clientes podem facilmente:
+**The DevPortal** helps you provides your specifications to your clients, team, and bussiness partners. When you publish specifications in the DevPortal they can easily:
 
- - Descobrir quais APIs estão disponíveis.
+- Discover what specifications are available
 
- - Experimentar as suas APIs na interface do usuário do Devportal.
+- Test available specifications on the DevPortal interface.
 
-- Monitorar seu próprio uso da API.
+## How to login?
 
-## Como fazer login?
-1. É necessário ter uma conta no Okta para entrar no Devportal e conectar suas APIs!
-
+1. It's necessary to have an Okta account to register and login on the DevPortal and check your specs!
 
 ![Devportal](/img/screenshot/DevPortalLogin.gif)
 
-## Funcionalidades:
+## Features:
 
-O Devportal contém:
+The DevPortal contains:
 
- - O nome da spec
+- Specification name.
 
- - O Sistema
+- System
 
- - O Criador/Setor
+- Owner/Creator of the spec.
 
- - Vida útil (Ex: Produção)
+- Spec description
 
- - Descrição da spec
+- Tags
 
- - Tags
+- Lifecycle(Production, experimental , etc.)
 
-Você poderá aplicar filtros por criador/setor, vida útil e tags:
-
+You can filter through owner/creator, tags and Lifecycle:
 
 ![Devportal](/img/screenshot/DevPortalFiltros.gif)
+## Testing your Specs:
 
-
-## Testando a SPEC de APIs:
-
-É possível realizar diversos testes da SPEC selecionada e até mesmo ver seu código fonte:
+It's possible to do various tests with the spec you choose and even check your source code: 
 ![Devportal](/img/screenshot/DevPortalTeste.gif)
 
 
