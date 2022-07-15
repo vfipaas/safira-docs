@@ -1,22 +1,21 @@
 ---
-sidebar_position: 3
-sidebar_label: Instalando e Configurando Okteto
-title: Instalando e Configurando Okteto
+sidebar_position: 7
+sidebar_label: Instaling and Setting up Okteto
+title: Instaling and Setting up Okteto
 ---
 
-
-## Instalando Okteto
-
-Instale Okteto seguindo os passos seguintes:
+## Instaling Okteto
+Install okteto following these steps:
 
 ```
 $ curl https://get.okteto.com -sSfL | sh
 ```
 ![Okteto](/img/screenshot/Okteto/Okteto1.png)
-## Configurando o Okteto.
 
-Você pode iniciar um ambiente de desenvolvimento remoto com [Okteto Cloud](https://cloud.okteto.com/) ou qualquer cluster Kubernetes com a Okteto CLI, nesse guia usaremos a Okteto Cloud.
-A primeira coisa que você precisa fazer é configurar a Okteto CLI para usar a Okteto Cloud, para isso rode este comando:
+## Setting up Okteto
+
+You can setup an remote develop enviroment with [Okteto Cloud](https://cloud.okteto.com/) or any Kubernetes cluster with Okteto CLI, in this guide we will use Okteto Cloud.
+The first thing you need to do it's configure the Okteto CLI to use Okteto Cloud, run this command for it:
 
 ```
 $ okteto context use https://cloud.okteto.com
@@ -24,7 +23,7 @@ $ okteto context use https://cloud.okteto.com
 
 ![Okteto](/img/screenshot/Okteto/Okteto2.png)
 
-Você pode confirmar que sua CLI está configurando rodando o comando a seguir: 
+You can confirm that your CLI is setup running this command:
 
 ```
 $ okteto context list
@@ -32,23 +31,21 @@ $ okteto context list
 
 ![Okteto](/img/screenshot/Okteto/Okteto3.png)
 
-## Iniciando sua aplicação
 
-Gerando sua aplicação pelo Safira-CLI já garante a criação de um [manifesto do Okteto](https://www.okteto.com/docs/reference/manifest/) e usaremos ele para subir nossa aplicação ao ambiente de desenvolvimento 
-usando o seguinte comando. 
+## Starting your API
 
+Generating your API with Safira-CLI grants the creation of an [Okteto manifest](https://www.okteto.com/docs/reference/manifest) and we will be using it to deploy or API to the develop enviroment running this command:
 ```
 $ okteto up
 ```
 
 ![Okteto](/img/screenshot/Okteto/Okteto4.png)
 
-## Executando container de desenvolvimento
+## Executing develop container
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Esse comando deve ser rodado dentro do container de desenvolvimento para startar a aplicação informando o profile okteto.
-
+This command need to be used inside of the develop container to start your API, only needing to inform your Okteto profile.
 
 <Tabs
     defaultValue="maven"
@@ -73,6 +70,6 @@ Esse comando deve ser rodado dentro do container de desenvolvimento para startar
 </Tabs>
 
 
-Após isso você terá acesso aos endpoints da sua aplicação através do [Okteto Cloud](https://cloud.okteto.com/)
+Now you have acess to your API's endpoints through [Okteto Cloud](https://cloud.okteto.com/)
 
 ![Okteto](/img/screenshot/Okteto/Okteto5.png)

@@ -1,107 +1,108 @@
 ---
 sidebar_position: 6
-sidebar_label: Primeiro Projeto com Safira em Spring-boot
+sidebar_label: First project with Safira using Spring Boot
 title: Hello World
 ---
 
-# Primeiro Projeto com Safira.
+# First project with Safira 
 
-## Iniciando o projeto com o Spring Boot.
-
+## Starting your project using Spring Boot.
 ![Hello World](/img/tutorial/springbootig.gif)
 
-1. Crie uma pasta que você queira que seu projeto seja criado.
+1. Create a new file that you want your project to be in.
+:::caution Important that the file has the name in lower case.
+:::
+2. On the new directory open a terminal of your preference(Bash, ZSH, etc.)
 
-2. Na pasta criada abra um terminal de linha de comando da sua preferência (Bash, ZSH, e etc.).
-
-3. Para criar um projeto use o comando:
-
+3. To start a project run the command:
 ```sh
 safira-cli project:new PROJECT-NAME
 ```
 
-**Substitua PROJECT-NAME pelo nome do projeto desejado ou use "." para criar o projeto na pasta atual.**
+**Change "PROJECT-NAME" for the name that you want for your project or use "." to create the project on the current folder.**
 
-4. Escolha se deseja usar um arquivo OpenAPI ou um arquivo do Insomnia Workspace.
+4. Chose if you want to use an OpenAPI file or an Insomnia Workspace file.
 
-5. Diga o caminho de onde está seu arquivo OpenAPI(yaml/json) com as specs de seu projeto.
+5. Say the path that your OpenAPI(yaml/json) file it's located with your project specification.
 
-6. Escreva uma descrição para seu Projeto.
+6. Write a description for you project.
 
-7. Escolha uma porta que seu projeto irá usar, por padrão o Safira usa a porta 8080. 
+7. Chose a port that your project is gonna be in, as default Safira-CLI uses port 8080.
 
-8. Escolha se deseja criar um mapeamento dos endpoints para o Kong.
+8. Chose if you want to map Kong endpoints.
 
-9. Qual framework deseja trabalhar.
+9. Which framework you wish to work with.
 
-10. Escolha em qual versão do Java deseja que seu projeto esteja.
+10. Which Java version you wish to use on your project.
 
-11. O Gerenciador de pacotes que deseja utilizar.
+11. Your package manager.
 
-12. A versão do framework escolhido.
+12. The framework's version.
 
-13. A nomenclatura dos pacotes java do projeto.
+13. The name of the Java's packages.
 
-14. O registro do docker.
+14. The Docker registry.
 
-15. O  nome do espaço Kubernetes.
+15. Kubernetes namespace.
 
-16. Pronto o seu projeto Hello World está criado.
+16. Done! Your Hello World project is created.
 
 ![Hello-World](/img/screenshot/Hello15.png)
 
 
-## Detalhes dos artefatos gerados após a criação do projeto JAVA
+## Details of generated artifacts.
 
 - Spring Boot
-### Artefatos
-Detalhes do projeto gerado em Springboot:
+### Artefacts
+
+Details of the project generated using Springboot:
 
 ![Safira Plushie](/img/screenshot/exemplo_artefatos.png)
 
-:::caution Importante versionar essa pasta.Não adicionar no .gitignore 
+:::caution Import to version this file. Don't add on .gitignore
 :::
-- A pasta .safira:
- -  docker: Pasta onde estará presente o Dockerfile do projeto
 
- - k8s: Pasta onde estão os arquivos do kubernetes.
+- .safira Folder:
 
- -  openapi-spec.yaml: Uma cópia da especificação openapi utilizada para a geração do projeto, quando utilizado o insomnia, é extraído a especificação e armazenada.
+ - docker: Folder where Dockerfile is gonna be located.
+ 
+ - k8s: Folder where kubernetes files are located.
 
- -  project-settings.yml: No arquivo fica todas as configurações relacionadas ao projeto para serem utilizadas pelo safira-cli.
+ - openapi-spec.yaml: A copy of the specification that was used to generate the project, when using insomnia the specification is extracted and storaged.
+
+ - project-settings.yml: In this file there are all the settings related to the project for Safira-CLI use as reference.
 
 ![Safira Plushie](/img/screenshot/exemplo_safira.png)
 
 - docker:
-  - Por padrão apenas um Dockerfile é criado, mas também é possível criar mais e Dockerfiles.
+ - As default only one Dockerfile is generated, but is possible to create more.
 
 ![Dockerfile Plushie](/img/screenshot/exemplo_dockerfile.png)
 
-- kubernetes:
-  - confimap.yaml: é feita uma cópia do application.properties
+-- kubernetes:
+  - confimap.yaml: A copy of application.properties
 
-  - deployment.yaml: arquivo de deployment do kubernetes
+  - deployment.yaml: Kubernetes' deployment file.
 
-  - namespace.yaml: arquivo para criação do namespace.
+  - namespace.yaml: File for creation of the namespace.
 
-  - service.yaml: configurações do kubernetes para a service da aplicação.
+  - service.yaml: Kubernetes' API service settings.
 
 ![K8S Plushie](/img/screenshot/exemplo_k8s.png)
 
-- Stubs gerados e models:
-  - api: Todas as apis geradas a partir da especificação estarão descritas aqui.
-  - model: Os models utilizados nas apis estarão aqui.
+- Generated Stubs and models:
+  - api: All generated APIs will be disclosed here.
+  - model: Models that the API will use are here.
 
 ![Stubs Plushie](/img/screenshot/exemplo_stubs.png)
 
 
-- Classes de testes geradas:
-
-  -  Para cada interface será criada uma classe de teste. 
+- Generated class tests:
+  - For each interface generated will be a test class.
 
 ![Classes Plushie](/img/screenshot/exemplo_classes.png)
 
-  - Exemplo da classe de teste:
+- Class tess example:
 
 ```yaml
 package com.safira.demo.api;
@@ -134,7 +135,7 @@ forward:
 
 ```
 
-### A API usada para o passo a passo está disponível no repositório da NHS Digital.
+### The used API for the step-by-step is available on NHS Digital's repository.
 [NHSDigital/hello-world-api](https://github.com/NHSDigital/hello-world-api)
 
 

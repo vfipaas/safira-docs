@@ -5,8 +5,8 @@ title: Safira CLI
 ---
 
 
-## Instalação Safira-CLI
-O comando irá instalar o **safira-cli** no seu sistema:
+## Safira-CLI Installation
+Running this command will install **safira-cli** in your system:
 
 
 ```bash

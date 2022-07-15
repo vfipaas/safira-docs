@@ -4,12 +4,12 @@ sidebar_label: Safira doctor
 title: Safira doctor
 ---
 
-O safira doctor tem como objetivo se setup possui as dependências necessárias para o funcionamento do safira-cli.
 
+Safira doctor has the objective to check if your computer has all the dependencies necessary to safira-cli function perfectly.
 ```sh
 npx @vfipaas/safira-doctor
 ```
 
-Resultado após a execução do comando:
+Expected result after running the command:
 
 ![safira-doctor-output](/img/installation/safira-doctor-output.png)
