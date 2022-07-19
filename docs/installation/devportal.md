@@ -1,15 +1,14 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 sidebar_label: DevPortal
 title: DevPortal
 ---
 
 ## Prerequisites
+
 - **[Safira-CLI](./safira-cli.md)**
 - **[Okta](../tutorials/config-okta.mdx)**
 - **Cluster Kubernetes**
-
-
 
 ## DevPortal Installation Stack
 

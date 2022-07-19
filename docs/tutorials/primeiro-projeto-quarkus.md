@@ -4,10 +4,10 @@ sidebar_label: First project with Safira using Quarkus.
 title: Hello World
 ---
 
-# Primeiro Projeto com Safira.
 
-# First project with Safira.
-## Iniciando o projeto com o Quarkus.
+# First project with Safira
+
+## Starting your Quarkus Project
 
 ![Hello World](/img/tutorial/QuarkusGIF.gif)
 
@@ -17,21 +17,22 @@ title: Hello World
 2. On the new directory open a terminal of your preference(Bash, ZSH, etc.)
 
 3. To start a project run the command:
+
 ```sh
 safira-cli project:new PROJECT-NAME
 ```
 
 **Change "PROJECT-NAME" for the name that you want for your project or use "." to create the project on the current folder.**
 
-4. Chose if you want to use an OpenAPI file or an Insomnia Workspace file.
+4. Choose if you want to use an OpenAPI file or an Insomnia Workspace file.
 
 5. Say the path that your OpenAPI(yaml/json) file it's located with your project specification.
 
 6. Write a description for you project.
 
-7. Chose a port that your project is gonna be in, as default Safira-CLI uses port 8080.
+7. Choose a port that your project is gonna be in, as default Safira-CLI uses port 8080.
 
-8. Chose if you want to map Kong endpoints.
+8. Choose if you want to map Kong endpoints.
 
 9. Which framework you wish to work with.
 
@@ -43,9 +44,10 @@ safira-cli project:new PROJECT-NAME
 
 ![Hello-World](/img/screenshot/Hello15.png)
 
-## Details of generated artifacts.
- 
+## Details of generated artifacts
+
 - Quarkus
+
 ### Artefacts
 
 Details of the project generated using Quarkus:
@@ -56,24 +58,24 @@ Details of the project generated using Quarkus:
 :::
 
 - .mvn Folder:
- - Has maven's wrapper, an "portable" version of maven where you don't need to install in the OS.
+- Has maven's wrapper, an "portable" version of maven where you don't need to install in the OS.
 
 ![Safira Quarkus](/img/screenshot/exemplo_mvn.png)
 
 - .safira Folder:
 
- - docker: Folder where Dockerfile is gonna be located.
- 
- - k8s: Folder where kubernetes files are located.
+- docker: Folder where Dockerfile is gonna be located.
 
- - openapi-spec.yaml: A copy of the specification that was used to generate the project, when using insomnia the specification is extracted and storaged.
+- k8s: Folder where kubernetes files are located.
 
- - project-settings.yml: In this file there are all the settings related to the project for Safira-CLI use as reference.
+- openapi-spec.yaml: A copy of the specification that was used to generate the project, when using insomnia the specification is extracted and storaged.
+
+- project-settings.yml: In this file there are all the settings related to the project for Safira-CLI use as reference.
 
 ![Safira Plushie](/img/screenshot/exemplo_safira.png)
 
 - docker:
- - As default only one Dockerfile is generated, but is possible to create more.
+- As default only one Dockerfile is generated, but is possible to create more.
 
 ![Dockerfile Plushie](/img/screenshot/exemplo_dockerfile.png)
 
@@ -99,7 +101,8 @@ Details of the project generated using Quarkus:
 
 ![Classes Plushie](/img/screenshot/exemplo_testquarkus.png)
 
-  - Class tess example:
+- Class tess example:
+
 ```yaml
 package com.safira.demo.api;
 
@@ -114,6 +117,7 @@ public class PetApiTest {
 }
 
 ```
+
 - Okteto template:
 
 ```yaml
@@ -131,6 +135,6 @@ forward:
 
 ```
 
-### The used API for the step-by-step is available on NHS Digital's repository.
-[NHSDigital/hello-world-api](https://github.com/NHSDigital/hello-world-api)
+### The used API for the step-by-step is available on NHS Digital's repository
 
+[NHSDigital/hello-world-api](https://github.com/NHSDigital/hello-world-api)

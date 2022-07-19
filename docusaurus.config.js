@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Safira CLI',
   staticDirectories: ['static'],
-  tagline: 'Uma ferramenta para automatizar o desenvolvimento de aplicações Openapi',
+  tagline: "A Tool to automate OpenAPI aplications development",
   url: ' https://vfipaas.github.io/',
   baseUrl: '/safira-docs/',
   onBrokenLinks: 'throw',
@@ -63,7 +63,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentação',
+            label: 'Documentation',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -88,13 +88,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentação',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Comunidade',
+            title: 'Comunity',
             items: [
               {
                 label: 'Stack Overflow',
@@ -111,7 +111,7 @@ const config = {
             ],
           },
           {
-            title: 'Sobre',
+            title: 'About',
             items: [
               // {
               //   label: 'Blog',

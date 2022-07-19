@@ -18,7 +18,7 @@ title: Devportal
 
 ![Devportal](/img/screenshot/DevPortalLogin.gif)
 
-## Features:
+## Features
 
 The DevPortal contains:
 
@@ -37,13 +37,8 @@ The DevPortal contains:
 You can filter through owner/creator, tags and Lifecycle:
 
 ![Devportal](/img/screenshot/DevPortalFiltros.gif)
-## Testing your Specs:
 
-It's possible to do various tests with the spec you choose and even check your source code: 
+## Testing your Specs
+
+It's possible to do various tests with the spec you choose and even check your source code:
 ![Devportal](/img/screenshot/DevPortalTeste.gif)
-
-
-
-
-
-

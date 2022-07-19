@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Fácil de usar',
+    title: 'Easy to use',
     Svg: require('/img/command.svg').default,
     description: (
       <>
-        Safira CLI foi desenhado para ser fácil pensando na 
-        agilidade do Desenvolvedor no dia a dia.
+        Safira CLI was design to be easy thought after on the day-to-day developer agility.
       </>
     ),
   },
   {
-    title: 'Focado no que importa',
+    title: 'Focused in what matters',
     Svg: require('/img/monitor.svg').default,
     description: (
       <>
-        Você pode focar no desenvolvimento e
-        deixar com a gente as configurações do setup do seu projeto.
+        You can focus in the development and leave with us your project setup.
       </>
     ),
   },
   {
-    title: 'Feito por devs para devs',
+    title: 'For devs, by devs',
     Svg: require('/img/transfer.svg').default,
     description: (
       <>
-        Criado por desenvolvedores para ajudar outros desenvolvedores durante o dia a dia.
-        .
+        Created by developers to help others developers in everyday tasks.
       </>
     ),
   },
