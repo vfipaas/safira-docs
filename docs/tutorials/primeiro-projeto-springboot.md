@@ -1,12 +1,12 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 sidebar_label: First project with Safira using Spring Boot
 title: Hello World
 ---
 
 # First project with Safira 
 
-## Starting your project using Spring Boot.
+## Starting your project using Spring Boot
 ![Hello World](/img/tutorial/springbootig.gif)
 
 1. Create a new file that you want your project to be in.
@@ -15,6 +15,7 @@ title: Hello World
 2. On the new directory open a terminal of your preference(Bash, ZSH, etc.)
 
 3. To start a project run the command:
+
 ```sh
 safira-cli project:new PROJECT-NAME
 ```
