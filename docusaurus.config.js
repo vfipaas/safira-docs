@@ -18,11 +18,11 @@ const config = {
   projectName: 'safira-docs', // Usually your repo name.
   // Internationalization
   i18n: {
-    defaultLocale: 'pt-BR',
-    locales: ['pt-BR'],
+    defaultLocale: 'en',
+    locales: ['en'],
     localeConfigs: {
-      'pt-BR': {
-        htmlLang: 'pt-BR',
+      'en': {
+        htmlLang: 'en',
       },
     },
   },
